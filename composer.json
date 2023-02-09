@@ -1,0 +1,19 @@
+{
+    "name": "joespark/api-resource-search",
+    "description": "Menyediakan fungsi untuk keperluan list data api dengan fungsi-fungsi ordering, filter dan pagination untuk api lumenmu",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Joespark\\ApiResourceSearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Spark",
+            "email": "prasojoam@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/lumen-framework": "^8.0"
+    }
+}
