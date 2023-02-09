@@ -2,7 +2,7 @@
     "name": "joespark/api-resource-search",
     "description": "Menyediakan fungsi untuk keperluan list data api dengan fungsi-fungsi ordering, filter dan pagination untuk api lumenmu",
     "type": "library",
-    "version": "0.0.6",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Joespark\\ApiResourceSearch\\": "src/"
