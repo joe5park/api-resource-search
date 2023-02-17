@@ -1,6 +1,6 @@
 <?php
 
-namespace Joespark\ResourceSearch;
+namespace Joespark\ApiResourceSearch;
 
 use Illuminate\Support\Str;
 
