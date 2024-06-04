@@ -87,8 +87,8 @@ class ResourceSearch
         $queryBuilder->select($model->getTable() . ".*");
 
         $orderBy = $model->getTable() . "." . $options['order_by'];
-
         $orderByCopy = $options['order_by'];
+        
         while (strpos($orderByCopy, '.') !== false) {
             $keyComposition = explode('.', $orderByCopy);
             $relation = $keyComposition[0];
